@@ -1,2 +1,2 @@
 # sink_presentation
-sink presentation for Madpy
+sink.py presentation for Madpy
