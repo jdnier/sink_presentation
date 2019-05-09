@@ -30,9 +30,10 @@ Write a Python script to cache the data in memory and write it out to a *named p
 @ul[list-content-concise]
 - Similar to the anonymous pipes (`|`) you see used on the command line
 - `% cat file.log | grep 'alert' | wc -l`
-- Only you treat them like files
+- But named pipes have file-like semantics (read, write, delete)
 - `% echo "Hello world\!" > mypipe`
 - `% cat mypipe / % tail -f mypipe / etc.`
+- `% rm mypipe`
 @ulend
 
 
@@ -65,7 +66,7 @@ Write a Python script to cache the data in memory and write it out to a *named p
 
 +++?color=#46454F
 
-### Let's make one
+### sink.py
 
 @code[text code-reveal-slow text-09](assets/src/sink.py)
 
@@ -73,8 +74,12 @@ Write a Python script to cache the data in memory and write it out to a *named p
 @[10-22]
 @[19-21]
 @[23-40]
+@[28-30]
+@[32-33]
+@[35-39]
 @[41-50]
 @[41-42, 45]
+@[43]
 @[46]
 @[48-49]
 @[52-53]

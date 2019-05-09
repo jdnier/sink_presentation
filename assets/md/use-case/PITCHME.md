@@ -42,7 +42,7 @@
 
 +++?color=#36454F
 
-### Remote distributed log search
+### Refining the search
 
 @ul[list-content-concise]
 - Narrow your search down with the search UI
@@ -66,7 +66,7 @@ curl 'https://...' \
 | less
 ```
 @[1](data comes from a ` curl ` request)
-@[2](`jq` filters, flattens, rewrites the JSON)
+@[2](`jq` filters, rewrites the JSON (flattened))
 @[3](`--only-matching` for particular groups)
 @[4-6](summary reporting/counting)
 @[7]
