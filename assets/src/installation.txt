@@ -1,0 +1,12 @@
+% python -m venv ~/virtualenvs/test
+% source ~/virtualenvs/test/bin/activate
+
+% git clone https://github.com/jdnier/sink_presentation.git
+% cd sink_presentation
+% pip install --editable .
+
+% echo "Testing 1, 2, 3" | sink serve
+
+Serving stdin (size: 16 B) via named pipe "data"...
+
+Type ^C to cancel.

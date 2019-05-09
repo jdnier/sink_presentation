@@ -1,0 +1,5 @@
+% python assets/src/calc.py add 1 3 5
+9
+
+% python assets/src/calc.py double 1 3 5
+2 6 10

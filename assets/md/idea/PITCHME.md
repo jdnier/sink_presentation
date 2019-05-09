@@ -83,3 +83,13 @@ Write a Python script to cache the data in memory and write it out to a *named p
 @[46]
 @[48-49]
 @[52-53]
+
+
++++?color=#46454F
+
+### Installation
+
+@code[text code-reveal-slow text-12](assets/src/installation.txt)
+@[1-2]
+@[3-5]
+@[6-8]
