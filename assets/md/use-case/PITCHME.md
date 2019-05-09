@@ -69,7 +69,7 @@ curl 'https://...' \
 @[2](`jq` filters, flattens, rewrites the JSON)
 @[3](`--only-matching` for particular groups)
 @[4-6](summary reporting/counting)
-@[1-7]
+@[7]
 
 +++?color=#36454F
 
@@ -104,51 +104,3 @@ curl 'https://...' \
 - Can be tedious, time consuming (typos, network issues)
 - Ideally, you only want to pull the data once
 @ulend
-
-
-+++?color=#36454F
-
-### Idea
-
-Write a Python script to cache the data in memory and write it out to a named pipe every time a client tries to read from it.
-
-@ul[list-content-concise]
-- Receive data on stdin and echo to a named pipe
-- When the script terminates or shell is closed, the data goes away and the named pipe gets cleaned up
-@ulend
-
-+++?color=#36454F
-
-```text
-.
-├── PITCHME.md
-├── PITCHME.yaml
-└── template
-    ├── css
-    │   └── PITCHME.css
-    ├── img
-    │   ├── batman.png
-    │   ├── dataflow.png
-    │   ├── developer.jpg
-    │   └── ....
-    └── md
-        ├── about/PITCHME.md
-        ├── announcement/PITCHME.md
-        ├── code-presenting/PITCHME.md
-        ├── header-footer/PITCHME.md
-        ├── image/PITCHME.md
-        ├── list-content/PITCHME.md
-        ├── quotation/PITCHME.md
-        ├── sidebar/PITCHME.md
-        ├── sidebox/PITCHME.md
-        ├── split-screen/PITCHME.md
-        └── wrap-up/PITCHME.md
-```
-
-@[1-3, 6](Code presenting can also be used to step through any text-based content.)
-@[4,5,7,12](Here for example we can navigate through the directory structure for this template.)
-@[12-23](We can see that this template uses GitPitch's cool modular markdown support @fa[smile-o fa-spin])
-
-@snap[north-east template-note text-white]
-Code presenting fenced text block template.
-@snapend

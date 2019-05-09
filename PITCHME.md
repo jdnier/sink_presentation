@@ -30,11 +30,14 @@ MadPy Meetup, May 9, 2019
 
 Note:
 
-- Offers a wide-range of enhanced presentation **tools** and **features**
-- Both on the desktop and in the cloud
-- Learn more on the GitPitch website at https://gitpitch.com
+- Notes here...
+- 
+- 
 
 @endsnap
 
 ---?include=assets/md/use-case/PITCHME.md
 
+---?include=assets/md/idea/PITCHME.md
+
+---?include=assets/md/examples/PITCHME.md
