@@ -6,11 +6,11 @@ A simple echo server that caches stdin and repeatedly writes it to a named pipe 
 
 ## Presentation slides
 
-The presentation slides are viewable [here](https://gitpitch.com/jdnier/sink_presentation#/). The presentation sources are in PITCHME.md and the assets directory.
+The presentation slides are viewable <a href="https://gitpitch.com/jdnier/sink_presentation#/" target="_blank">here</a>. The presentation sources are in PITCHME.md and the assets directory.
 
 ## Example use case
 
-Use it to cache data pulled from the network without saving as a file.
+Use sink to cache data pulled from the network without saving as a file.
 Just cat the named pipe to test and debug your pipelines.
 
 ## Sample invocation
