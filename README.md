@@ -1,8 +1,10 @@
 # Presentation for Madpy Meetup, May 9, 2019
 
-## sink.py
+## sink.py – a data sink
 
 A simple echo server that caches stdin and repeatedly writes it to a named pipe (FIFO).
+
+View the presentation slides [here](https://gitpitch.com/jdnier/sink_presentation#/)
 
 ## Example use case
 

@@ -1,6 +1,6 @@
 ---?color=#56454F
 
-### A little about the Python Fire
+### A little about Python Fire
 
 @ul[list-content-concise]
 - Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
