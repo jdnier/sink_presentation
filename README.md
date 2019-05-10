@@ -4,7 +4,9 @@
 
 A simple echo server that caches stdin and repeatedly writes it to a named pipe (FIFO).
 
-View the presentation slides [here](https://gitpitch.com/jdnier/sink_presentation#/)
+## Presentation slides
+
+The presentation slides are viewable [here](https://gitpitch.com/jdnier/sink_presentation#/). The source is in PITCHME files and assets directory.
 
 ## Example use case
 
